@@ -1,0 +1,121 @@
+export const categories = [
+    {id: 1, name: "Western", icon: "fa-solid fa-bowl-food"},
+    {id: 2, name: "Khmer", icon: "fa-solid fa-utensils"},
+    {id: 3, name: "Cocktails", icon: "fa-solid fa-martini-glass"},
+    {id: 4, name: "Deserts", icon: "fa-solid fa-stroopwafel"},
+    {id: 5, name: "Pizza", icon: "fa-solid fa-pizza-slice"}
+];
+export const products ={
+    western:[
+
+        {
+            id: 1,
+            name: "Fried Rice & Chicken",
+            price: 6.99,
+            image: "friedrice.png",
+            categoryId: 1,
+            rating: 5,
+            description: "A delicious fried rice dish with tender chicken pieces, seasoned to perfection and served with a side of vegetables.",
+            ingredients: ["Rice", "Chicken", "Vegetables", "Soy Sauce", "Spices"],
+        },
+        {
+            id: 2,
+            name: "Fried Rice & Pork",
+            price: 5.99,
+            image: "friedricepork.png",
+            categoryId: 1,
+            rating: 5,
+            description: "A flavorful fried rice dish with succulent pork, cooked with a blend of spices and served with fresh vegetables.",
+            ingredients: ["Rice", "Pork", "Vegetables", "Soy Sauce", "Spices"],
+        },
+    ],
+    khmer: [
+        {
+            id: 3,
+            name: "Khmer Noodle Soup",
+            price: 4.99,
+            image: "khmernoodlesoup.png",
+            categoryId: 2,
+            rating: 4,
+            description: "A traditional Khmer noodle soup with a rich broth, tender meat, and fresh herbs, served with lime and chili.",
+            ingredients: ["Noodles", "Beef/Pork/Chicken", "Broth", "Herbs", "Lime", "Chili"],
+        },
+        {
+            id: 4,
+            name: "Khmer Curry",
+            price: 7.99,
+            image: "khmercurry.png",
+            categoryId: 2,
+            rating: 5,
+            description: "A fragrant Khmer curry made with a blend of spices, coconut milk, and your choice of meat, served with rice.",
+            ingredients: ["Coconut Milk", "Meat (Chicken/Pork/Beef)", "Spices", "Vegetables", "Rice"],
+        },
+    ],
+    cocktails: [
+        {
+            id: 5,
+            name: "Mojito",
+            price: 3.99,
+            image: "mojito.png",
+            categoryId: 3,
+            rating: 4,
+            description: "A refreshing cocktail made with fresh mint, lime juice, sugar, and rum, topped with soda water.",
+            ingredients: ["Mint", "Lime Juice", "Sugar", "Rum", "Soda Water"],
+        },
+        {
+            id: 6,
+            name: "Pina Colada",
+            price: 4.99,
+            image: "pinacolada.png",
+            categoryId: 3,
+            rating: 5,
+            description: "A tropical cocktail made with rum, coconut cream, and pineapple juice, blended to perfection.",
+            ingredients: ["Rum", "Coconut Cream", "Pineapple Juice", "Ice"],
+        },
+    ],
+    deserts: [
+        {
+            id: 7,
+            name: "Chocolate Cake",
+            price: 2.99,
+            image: "chocolatecake.png",
+            categoryId: 4,
+            rating: 5,
+            description: "A rich and moist chocolate cake topped with creamy chocolate frosting, perfect for dessert lovers.",
+            ingredients: ["Flour", "Cocoa Powder", "Sugar", "Eggs", "Butter", "Chocolate Frosting"],
+        },
+        {
+            id: 8,
+            name: "Ice Cream",
+            price: 1.99,
+            image: "icecream.png",
+            categoryId: 4,
+            rating: 4,
+            description: "A classic dessert made with creamy ice cream, available in various flavors like vanilla, chocolate, and strawberry.",
+            ingredients: ["Milk", "Sugar", "Cream", "Flavorings (Vanilla/Chocolate/Strawberry)"],
+        },
+    ],
+    pizza: [
+        {
+            id: 9,
+            name: "Margherita Pizza",
+            price: 8.99,
+            image: "margheritapizza.png",
+            categoryId: 5,
+            rating: 5,
+            description: "A classic Margherita pizza topped with fresh mozzarella, basil, and a drizzle of olive oil on a crispy crust.",
+            ingredients: ["Pizza Dough", "Tomato Sauce", "Fresh Mozzarella", "Basil", "Olive Oil"],
+        },
+        {
+            id: 10,
+            name: "Pepperoni Pizza",
+            price: 9.99,
+            image: "pepperonipizza.png",
+            categoryId: 5,
+            rating: 4,
+            description: "A delicious pepperoni pizza with a generous layer of spicy pepperoni slices, melted cheese, and a tangy tomato sauce.",
+            ingredients: ["Pizza Dough", "Tomato Sauce", "Mozzarella Cheese", "Pepperoni", "Spices"],
+        },
+    ]
+    
+};
